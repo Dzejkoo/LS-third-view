@@ -5,13 +5,11 @@ import { ReactComponent as SmallArrow } from '../../../assets/image/icon/small-a
 export const Path = () => {
   return (
     <PathWrapper>
-      <span>
-        Dashboard <SmallArrow />
-      </span>
-      <span>
-        Kursy <SmallArrow />
-      </span>
-      <span>Dodaj nowy kurs</span>
+      <button>Dashboard</button>
+      <SmallArrow />
+      <button>Kursy</button>
+      <SmallArrow />
+      <button>Dodaj nowy kurs</button>
     </PathWrapper>
   );
 };
