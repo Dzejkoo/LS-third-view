@@ -10,7 +10,9 @@ export const Trainers = () => {
       <Trainer>
         <img src={photos.userPhoto} alt="user face" />
         <span>Jan Kowalski</span>
-        <DeleteIcon />
+        <a href="">
+          <DeleteIcon />
+        </a>
       </Trainer>
     </TrainersWrapper>
   );
